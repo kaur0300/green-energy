@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+.wrapper {
+    max-width: 90rem;
+    margin: auto; 
+}
+
+.banner img {
+    width: 95%;
+    padding: 2rem;
+}
+
+h1 {
+    margin: 0;   
+    text-align: left;
+    font-size: 4rem;
+    color: #1d8728;
+    font-family: 'Roboto Slab', serif;
+    padding-left: 30px;
+    padding-top: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    font-family: 'Nanum Gothic', sans-serif;
+    display: inline-block;
+    margin: 5px;
+    width: 100%;
+    font-size: 0.75rem;
+    text-align: left;
+}
+
+nav ul li a {
+    color: #1d8728;
+    text-decoration: none;
+}
+
+main {
+    text-align: left;
+    line-height: 1.2rem;
+    
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 35px;
+    padding-left: 30px;
+}
+
+main ul {
+    list-style: none;
+}
+
+main ul li {
+    display: inline;
+}
+
+.buttons { 
+    background-color: #184C2E; 
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 0.4rem;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.buttons:hover {
+    background-color: #b4ff59;
+    color: #0c0c0c;
+}
+
+figure img {
+    width: 100%;
+    float: left; 
+    padding-top: 45px;
+    padding-bottom: 35px;
+}
+
+figcaption {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+figure p {
+    font-size: 0.75rem;
+    width: 97%;
+    float: right;
+    text-align: left;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 3rem;
+    font-family: 'Roboto Slab', serif;
+    color: #1d8728;
+    padding-left: 30px;
+}
+
+footer {
+    clear: both;
+    font-family: 'Nanum Gothic', sans-serif;
+    max-width: 94%;
+    background-color: #bdff8c;
+    padding: 5px;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-left: 30px;
+}
+
+.social-media a {
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 60rem) {
+    .wrapper {
+        max-width: 90rem;
+        margin: auto; 
+    }
+
+    .banner img {
+        width: 95.5%;
+        padding: 2rem;
+    }
+
+    h1 {
+        margin: 0;   
+        text-align: left;
+        font-size: 4rem;
+        color: #1d8728;
+        font-family: 'Roboto Slab', serif;
+        padding-left: 30px;
+        padding-top: 0;
+    }
+
+    nav ul {
+        list-style: none;
+    }
+
+    nav ul li {
+        font-family: 'Nanum Gothic', sans-serif;
+        display: inline;
+        margin: 8px;
+        font-size: 1.5rem;
+    }
+
+    nav ul li a {
+        color: #1d8728;
+        text-decoration: none;
+    }
+
+    main {
+        text-align: left;
+        line-height: 1.4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+        padding-bottom: 35px;
+    }
+
+    main ul {
+        list-style: none;
+        text-align: left;
+    }
+
+    main ul li {
+        display: inline;
+    }
+
+    .buttons { 
+        background-color: #184C2E; 
+        text-decoration: none;
+        font-size: 1rem;
+        color: white;
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    .buttons:hover {
+        background-color: #b4ff59;
+        color: #0c0c0c;
+    }
+
+    figure img {
+        width: 50%;
+        float: left; 
+        padding-top: 45px;
+        padding-bottom: 35px;
+    }
+
+    figure figcaption {
+        font-size: 2rem;
+        width: 47%;
+        font-weight: bold;
+        float: right;
+       
+        padding-top: 15px;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    figure p {
+        font-size: 1rem;
+        width: 45%;
+        float: right;
+        text-align: left;
+    }
+
+    h3 {
+        font-size: 3rem;
+        padding-left: 30px;
+        color: #1d8728;
+    }
+
+    footer {
+        clear: both;
+        text-align: left;
+        font-family: 'Nanum Gothic', sans-serif;
+        max-width: 95%;
+        background-color: #bdff8c;
+        font-size: 1rem;
+        line-height: 1.6rem;
+        margin-left: 30px;
+    }
+
+    .social-media a {
+        font-size: 1rem;
+        text-decoration: none;
+    }
+}
+
+
+
